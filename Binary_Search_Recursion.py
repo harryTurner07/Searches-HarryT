@@ -18,3 +18,4 @@ def binary_search_recursion(items,start_index, end_index, search_item):
 list_of_ITEMS = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]
 print("The list starts at 0, so add one to get it's actual position")
 print(binary_search_recursion(list_of_ITEMS,0 , 15, 5))
+#                              list^   start^ end^  ^what you want to find
