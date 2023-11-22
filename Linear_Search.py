@@ -1,4 +1,8 @@
 def linear_search(items, search_item):
+    """
+    A linear search program that goes along every item in a given list and checks if the item is in it
+    If so it outputs it's position via a "counter" - read the bottom note 'IMPORTANT'.
+    """
     # Local variable to be called later in the program
     selected_item = ""
     x = 0
